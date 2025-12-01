@@ -21,7 +21,7 @@ Kaggle → Local CSV → Meltano → BigQuery → dbt (later)
 ## 2. Environment Setup
 
 ``` bash
-conda env create -f eltn '''your_env_path'''
+conda env create -f your eltn file path
 conda activate eltn
 pip install meltano pandas python-dotenv jupyter kaggle
 ```
